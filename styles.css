@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.product_image{
+    width: 275px;
+    height: 240;
+}
+
+.product_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hr_product{
+    border-top: 60px;
+    width: 50%;
+    left: 10px;
+    position: relative;
+    color: black;
+}
+.input_field{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.contact_button{
+    border-radius: 20px;
+    margin-top: 18px;
+    padding: 10px;
+}
+.textarea_field{
+    height: 150px;
+    width: 200px;
+}
+.cart_button{
+    background-color: rgb(191, 118, 49);
+    color: white;
+    border-color: white;
+}
+
+.about_image{
+    height: 275px;
+    width: 240px;
+}
+nav li{
+    display: inline;
+    margin-left: 5rem;
+}
+.search_bar{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
